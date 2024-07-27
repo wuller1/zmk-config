@@ -1,44 +1,60 @@
 if SHIELD_SPLITKB_LEFT
 
 config ZMK_KEYBOARD_NAME
-	default "splitkb"
+    default "splitkb"
 
 config ZMK_SPLIT_ROLE_CENTRAL
-	default y
+    default y
 
 endif
 
 if SHIELD_SPLITKB_LEFT || SHIELD_SPLITKB_RIGHT
 
 config ZMK_SPLIT
-	default y
+    default y
 
 if ZMK_DISPLAY
 
 config I2C
-	default y
+    default y
 
 config SSD1306
-	default y
+    default y
 
 config SSD1306_REVERSE_MODE
-	default y
+    bool "Enable reverse mode for SSD1306"
+    default y
 
 endif # ZMK_DISPLAY
 
 if LVGL
 
 config LVGL_VDB_SIZE
-	default 64
+    int "VDB Size for LVGL"
+    default 64
+    range 32 256  # Specify a valid range for the size
 
 config LVGL_DPI
-	default 148
+    int "DPI for LVGL"
+    default 148
+    range 96 300  # Specify a valid range for DPI
 
 config LVGL_BITS_PER_PIXEL
-	default 1
+    int "Color bits per pixel"
+    default 1
+    range 1 32  # Specify a valid range for bits per pixel
 
 choice LVGL_COLOR_DEPTH
-	default LVGL_COLOR_DEPTH_1
+    prompt "Color Depth"
+    default LVGL_COLOR_DEPTH_1
+    config LVGL_COLOR_DEPTH_1
+        bool "1 bit"
+    config LVGL_COLOR_DEPTH_2
+        bool "2 bits"
+    config LVGL_COLOR_DEPTH_4
+        bool "4 bits"
+    config LVGL_COLOR_DEPTH_8
+        bool "8 bits"
 endchoice
 
 endif # LVGL
