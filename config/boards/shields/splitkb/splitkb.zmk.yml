@@ -1,0 +1,12 @@
+file_format: "1"
+id: splitkb
+name: splitkb
+type: shield
+url: https://github.com/seniorsoftwarevlogger/takmak-zmk/
+requires: [pro_micro]
+exposes: []
+features:
+  - keys
+siblings:
+  - splitkb_left
+  - splitkb_right
