@@ -23,16 +23,44 @@
         };
     };
 
+    behaviors {
+        hml: hml {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HML";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <150>;
+            flavor = "balanced";
+            hold-trigger-on-release;
+            hold-trigger-key-positions = <52 37 7 8 9 10 11 12 13 14 22 23 24 25 26 27 28 29 37 38 39 40 41 42 43 44 52 53 54 55 56 57 58 59 65 66 67 68 69 70 64>;
+        };
+
+        hmr: hmr {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HMR";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <150>;
+            flavor = "balanced";
+            hold-trigger-on-release;
+            hold-trigger-key-positions = <0 1 2 3 4 5 6 15 16 17 18 19 20 21 30 31 32 33 34 35 36 45 46 47 48 49 50 51 60 61 62 63 64 65>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-&kp GRAVE         &kp N1            &kp N2        &kp N3            &kp N4  &kp N5  &kp N6             &kp ESC        &kp N7  &kp N8  &kp N9     &kp N0         &kp MINUS          &kp EQUAL   &kp DEL
-&kp TAB           &kp Q             &kp W         &kp E             &kp R   &kp T   &kp K_SCROLL_UP    &kp BACKSPACE  &kp Y   &kp U   &kp I      &kp O          &kp P              &kp LBKT    &kp RBKT
-&kp CAPSLOCK      &kp A             &kp S         &kp D             &kp F   &kp G   &kp K_SCROLL_DOWN  &kp ENTER      &kp H   &kp J   &kp K      &kp L          &kp SEMI           &kp SQT     &kp BSLH
-&kp LSHFT         &kp Z             &kp X         &kp C             &kp V   &kp B   &kp SPACE          &kp SPACE      &kp N   &kp M   &kp COMMA  &kp DOT        &kp FSLH           &kp RSHIFT  &kp C_VOLUME_UP
-&kp K_PLAY_PAUSE  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &to 2                                                     &to 1   &kp RGUI   &kp RIGHT_ALT  &kp RIGHT_CONTROL  &kp K_MUTE  &kp C_VOLUME_DOWN
+&kp GRAVE         &kp N1             &kp N2               &kp N3            &kp N4               &kp N5  &kp N6             &kp ESC        &kp N7  &kp N8                &kp N9            &kp N0                &kp MINUS              &kp EQUAL   &kp DEL
+&kp TAB           &kp Q              &kp W                &kp E             &kp R                &kp T   &kp K_SCROLL_UP    &kp BACKSPACE  &kp Y   &kp U                 &kp I             &kp O                 &kp P                  &kp LBKT    &kp RBKT
+&kp CAPSLOCK      &hml LEFT_SHIFT A  &hml LEFT_CONTROL S  &hml LEFT_ALT D   &hml LEFT_COMMAND F  &kp G   &kp K_SCROLL_DOWN  &kp ENTER      &kp H   &hmr RIGHT_COMMAND J  &hmr RIGHT_ALT K  &hmr RIGHT_CONTROL L  &hmr RIGHT_SHIFT SEMI  &kp SQT     &kp BSLH
+&kp LSHFT         &kp Z              &kp X                &kp C             &kp V                &kp B   &kp SPACE          &kp SPACE      &kp N   &kp M                 &kp COMMA         &kp DOT               &kp FSLH               &kp RSHIFT  &kp C_VOLUME_UP
+&kp K_PLAY_PAUSE  &kp LEFT_CONTROL   &kp LEFT_ALT         &kp LEFT_COMMAND  &to 2                                                                  &to 1                 &kp RGUI          &kp RIGHT_ALT         &kp RIGHT_CONTROL      &kp K_MUTE  &kp C_VOLUME_DOWN
             >;
         };
 
