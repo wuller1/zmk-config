@@ -34,22 +34,22 @@
 
         Up {
             bindings = <&kp UP>;
-            key-positions = <31 32>;
+            key-positions = <38 37>;
         };
 
         Down {
             bindings = <&kp DOWN>;
-            key-positions = <45 44>;
+            key-positions = <50 49>;
         };
 
         Left {
             bindings = <&kp LEFT>;
-            key-positions = <37 38>;
+            key-positions = <31 30>;
         };
 
         Right {
             bindings = <&kp RIGHT>;
-            key-positions = <38 39>;
+            key-positions = <31 32>;
         };
     };
 
