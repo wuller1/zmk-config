@@ -19,7 +19,7 @@
 
         Enter {
             bindings = <&kp ENTER>;
-            key-positions = <41 40>;
+            key-positions = <38 39>;
         };
 
         Escape {
