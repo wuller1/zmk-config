@@ -24,32 +24,12 @@
 
         Escape {
             bindings = <&kp ESC>;
-            key-positions = <16 17>;
+            key-positions = <16 15>;
         };
 
         Delete {
             bindings = <&kp DELETE>;
             key-positions = <18 17>;
-        };
-
-        Up {
-            bindings = <&kp UP>;
-            key-positions = <38 37>;
-        };
-
-        Down {
-            bindings = <&kp DOWN>;
-            key-positions = <50 49>;
-        };
-
-        Left {
-            bindings = <&kp LEFT>;
-            key-positions = <31 30>;
-        };
-
-        Right {
-            bindings = <&kp RIGHT>;
-            key-positions = <31 32>;
         };
     };
 
