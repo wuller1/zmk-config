@@ -66,18 +66,18 @@
 
         default_layer {
             bindings = <
-&kp GRAVE          &kp N1             &kp N2               &kp N3           &kp N4               &kp N5  &kp N6         &bt BT_CLR    &kp N7  &kp N8                &kp N9            &kp N0                &kp MINUS              &kp EQUAL
-&kp TAB            &kp Q              &kp W                &kp E            &kp R                &kp T   &bt BT_SEL 0   &bt BT_SEL 1  &kp Y   &kp U                 &kp I             &kp O                 &kp P                  &kp LBKT
-&caps_word         &hml LEFT_SHIFT A  &hml LEFT_CONTROL S  &hml LEFT_ALT D  &hml LEFT_COMMAND F  &kp G   &bt BT_SEL 2   &bt BT_SEL 3  &kp H   &hmr RIGHT_COMMAND J  &hmr RIGHT_ALT K  &hmr RIGHT_CONTROL L  &hmr RIGHT_SHIFT SEMI  &kp SQT
-&kp LEFT_SHIFT     &kp Z              &kp X                &kp C            &kp V                &kp B                                &kp N   &kp M                 &kp COMMA         &kp DOT               &kp FSLH               &hmr RIGHT_SHIFT RIGHT_BRACKET
-&kp C_VOLUME_DOWN  &to 1              &hml HOME LEFT       &hml END RIGHT   &kp SPACE                    &kp BACKSPACE  &kp ENTER             &kp SPACE             &kp UP            &kp DOWN              &kp BACKSLASH          &kp C_VOL_UP
+&kp GRAVE          &kp N1             &kp N2               &kp N3           &kp N4               &kp N5  &kp N6         &none      &kp N7  &kp N8                &kp N9            &kp N0                &kp MINUS              &kp EQUAL
+&kp TAB            &kp Q              &kp W                &kp E            &kp R                &kp T   &none          &none      &kp Y   &kp U                 &kp I             &kp O                 &kp P                  &kp LBKT
+&to 1              &hml LEFT_SHIFT A  &hml LEFT_CONTROL S  &hml LEFT_ALT D  &hml LEFT_COMMAND F  &kp G   &none          &none      &kp H   &hmr RIGHT_COMMAND J  &hmr RIGHT_ALT K  &hmr RIGHT_CONTROL L  &hmr RIGHT_SHIFT SEMI  &kp SQT
+&kp LEFT_SHIFT     &kp Z              &kp X                &kp C            &kp V                &kp B                             &kp N   &kp M                 &kp COMMA         &kp DOT               &kp FSLH               &hmr RIGHT_SHIFT RIGHT_BRACKET
+&kp C_VOLUME_DOWN  &caps_word         &hml HOME LEFT       &hml END RIGHT   &kp SPACE                    &kp BACKSPACE  &kp ENTER          &kp SPACE             &kp UP            &kp DOWN              &kp BACKSLASH          &kp C_VOL_UP
             >;
         };
 
         f-keys {
             bindings = <
 &kp GRAVE     &kp F1                    &kp F2                      &kp F3                  &kp F4                      &kp F5  &kp F6         &bt BT_CLR    &kp F7     &kp F8                 &kp F9             &kp F10                &kp F11              &kp F12
-&kp TAB       &kp Q                     &kp W                       &kp E                   &kp R                       &kp T   &bt BT_SEL 0   &bt BT_SEL 1  &kp Y      &kp U                  &kp I              &kp O                  &kp P                &kp LBKT
+&kp TAB       &kp Q                     &kp W                       &kp E                   &kp R                       &kp T   &bt BT_SEL 0   &bt BT_SEL 1  &kp Y      &kp U                  &kp I              &kp O                  &kp P                &kp EQUAL
 &to 0         &hml LEFT_SHIFT NUMBER_1  &hml LEFT_CONTROL NUMBER_2  &hml LEFT_ALT NUMBER_3  &hml LEFT_COMMAND NUMBER_4  &kp N5  &kp NUMBER_6   &bt BT_SEL 3  &kp EQUAL  &hmr RIGHT_COMMAND N7  &hmr RIGHT_ALT N8  &hmr RIGHT_CONTROL N9  &hmr RIGHT_SHIFT N0  &kp MINUS
 &none         &kp Z                     &kp X                       &kp C                   &kp V                       &kp B                                &kp N      &kp M                  &kp COMMA          &kp DOT                &kp FSLH             &kp RIGHT_BRACKET
 &kp CAPSLOCK  &to 0                     &hml LEFT HOME              &hmr END RIGHT          &kp SPACE                           &kp BACKSPACE  &kp ENTER                &kp SPACE              &kp UP             &kp DOWN               &kp C_VOL_DN         &kp C_VOL_UP
