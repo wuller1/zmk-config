@@ -24,7 +24,7 @@
 
         Escape {
             bindings = <&kp ESC>;
-            key-positions = <16 15>;
+            key-positions = <16 17>;
         };
 
         Delete {
@@ -70,7 +70,7 @@
 &kp TAB            &kp Q              &kp W                &kp E            &kp R                &kp T   &none             &none              &kp Y              &kp U                 &kp I             &kp O                 &kp P                  &kp EQUAL
 &to 1              &hml LEFT_SHIFT A  &hml LEFT_CONTROL S  &hml LEFT_ALT D  &hml LEFT_COMMAND F  &kp G   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp H              &hmr RIGHT_COMMAND J  &hmr RIGHT_ALT K  &hmr RIGHT_CONTROL L  &hmr RIGHT_SHIFT SEMI  &kp SQT
 &caps_word         &kp Z              &kp X                &kp C            &kp V                &kp B                                        &kp N              &kp M                 &kp COMMA         &kp DOT               &kp FSLH               &kp RIGHT_BRACKET
-&kp C_VOLUME_DOWN  &none              &none                &hml HOME LEFT   &kp SPACE                    &hml END RIGHT    &kp UP                                &kp SPACE             &kp DOWN          &none                 &none                  &kp C_VOL_UP
+&kp C_VOLUME_DOWN  &kp LEFT           &kp RIGHT            &hml HOME LEFT   &kp SPACE                    &hml END RIGHT    &kp UP                                &kp SPACE             &kp DOWN          &kp UP_ARROW          &kp DOWN               &kp C_VOL_UP
             >;
         };
 
