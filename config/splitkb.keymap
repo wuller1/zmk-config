@@ -31,9 +31,24 @@
             key-positions = <18 17>;
         };
 
-        Caps_word {
-            bindings = <&caps_word>;
-            key-positions = <44 45>;
+        Left {
+            bindings = <&kp LEFT>;
+            key-positions = <30 31>;
+        };
+
+        Right {
+            bindings = <&kp RIGHT>;
+            key-positions = <31 32>;
+        };
+
+        Up {
+            bindings = <&kp UP>;
+            key-positions = <38 39>;
+        };
+
+        Down {
+            bindings = <&kp DOWN>;
+            key-positions = <50 51>;
         };
     };
 
