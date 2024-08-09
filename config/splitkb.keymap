@@ -74,7 +74,7 @@
 &kp TAB           &kp Q              &kp W            &kp E         &kp R      &kp T   &none             &none              &kp Y              &kp U      &kp I              &kp O     &kp P          &kp EQUAL
 &caps_word        &kp A              &kp S            &kp D         &kp F      &kp G   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp H              &kp J      &kp K              &kp L     &kp SEMICOLON  &kp SQT
 &kp RIGHT_SHIFT   &kp Z              &kp X            &kp C         &kp V      &kp B                                        &kp N              &kp M      &kp COMMA          &kp DOT   &kp FSLH       &kp RIGHT_SHIFT
-&kp LEFT_CONTROL  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp LEFT_ALT  &kp SPACE          &hml HOME LEFT    &hmr RIGHT END                        &kp SPACE  &kp RIGHT_COMMAND  &kp DOWN  &kp UP         &kp RIGHT_CONTROL
+&kp LEFT_CONTROL  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp LEFT_ALT  &kp SPACE          &hml HOME LEFT    &hmr END RIGHT                        &kp SPACE  &kp RIGHT_COMMAND  &kp DOWN  &kp UP         &kp RIGHT_CONTROL
             >;
         };
     };
