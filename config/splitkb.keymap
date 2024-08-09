@@ -32,12 +32,12 @@
         };
 
         Left {
-            bindings = <&kp LEFT>;
+            bindings = <&hml HOME LEFT>;
             key-positions = <30 31>;
         };
 
         Right {
-            bindings = <&kp RIGHT>;
+            bindings = <&hml END RIGHT>;
             key-positions = <31 32>;
         };
 
