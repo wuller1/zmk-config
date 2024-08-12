@@ -60,6 +60,11 @@
             bindings = <&kp EQUAL>;
             key-positions = <12 13>;
         };
+
+        backslash_pipe {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <52 51>;
+        };
     };
 
     behaviors {
