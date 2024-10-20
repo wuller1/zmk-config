@@ -22,7 +22,7 @@
             key-positions = <24 25>;
         };
 
-        Escape {
+        caps {
             bindings = <&kp CAPSLOCK>;
             key-positions = <16 17>;
         };
