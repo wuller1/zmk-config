@@ -101,11 +101,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE         &kp N1             &kp N2           &kp N3            &kp END        &kp N5        &kp N6        &kp LEFT           &kp RIGHT  &kp N7     &kp N8            &kp N9      &kp HOME       &kp MINUS
-&kp TAB           &kp Q              &kp LC(RIGHT)    &kp E             &kp LS(LC(Z))  &kp T         &kp UP        &kp RIGHT_BRACKET  &kp Y      &kp LC(Z)  &kp I             &kp O       &kp LC(V)      &kp LEFT_BRACKET
-&kp ESC           &kp A              &kp S            &kp D             &kp F          &kp G         &kp DOWN      &kp EQUAL          &kp LEFT   &kp DOWN   &kp UP            &kp RIGHT   &kp SEMICOLON  &kp SQT
-&kp RIGHT_SHIFT   &kp Z              &kp X            &kp C             &kp V          &kp LC(LEFT)                                   &kp N      &kp M      &kp COMMA         &kp DOT     &kp LC(F)      &kp RIGHT_SHIFT
-&kp LEFT_CONTROL  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp LEFT_COMMAND  &kp SPACE                    &kp LEFT_ALT  &kp RIGHT_COMMAND             &kp SPACE  &kp LEFT_COMMAND  &kp INSERT  &kp BACKSLASH  &kp RIGHT_CONTROL
+&kp GRAVE         &kp N1             &kp N2           &kp N3            &kp END         &kp N5        &kp N6        &kp LEFT           &kp RIGHT  &kp N7     &kp N8            &kp N9      &kp HOME       &kp MINUS
+&kp TAB           &kp Q              &kp LC(RIGHT)    &kp E             &kp LS(LC(Z))   &kp T         &kp UP        &kp RIGHT_BRACKET  &kp Y      &kp LC(Z)  &kp I             &kp O       &kp LC(V)      &kp LEFT_BRACKET
+&kp ESC           &kp A              &kp S            &kp D             &kp F           &kp G         &kp DOWN      &kp EQUAL          &kp LEFT   &kp DOWN   &kp UP            &kp RIGHT   &kp SEMICOLON  &kp SQT
+&kp RIGHT_SHIFT   &kp Z              &kp X            &kp C             &sk LEFT_SHIFT  &kp LC(LEFT)                                   &kp N      &kp M      &kp COMMA         &kp DOT     &kp LC(F)      &kp RIGHT_SHIFT
+&kp LEFT_CONTROL  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp LEFT_COMMAND  &kp SPACE                     &kp LEFT_ALT  &kp RIGHT_COMMAND             &kp SPACE  &kp LEFT_COMMAND  &kp INSERT  &kp BACKSLASH  &kp RIGHT_CONTROL
             >;
         };
     };
