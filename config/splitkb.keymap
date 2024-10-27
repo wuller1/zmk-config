@@ -37,11 +37,6 @@
             key-positions = <27 26>;
         };
 
-        Equals {
-            bindings = <&kp EQUAL>;
-            key-positions = <12 13>;
-        };
-
         clear_bt {
             bindings = <&bt BT_CLR>;
             key-positions = <34 35>;
@@ -101,21 +96,21 @@
 
         windows_varm_layer {
             bindings = <
-&kp GRAVE         &kp N1             &kp N2           &kp N3        &kp N4     &kp N5  &kp N6        &kp LC(RG(LEFT))  &kp LC(RG(RIGHT))  &kp N7     &kp N8        &kp N9         &kp N0         &kp MINUS
-&kp TAB           &kp Q              &kp W            &kp E         &kp R      &kp T   &kp LA(S)     &kp LA(G)         &kp Y              &kp U      &kp I         &kp O          &kp P          &kp LEFT_BRACKET
-&kp ESC           &kp A              &kp S            &kp D         &kp F      &kp G   &kp LA(H)     &kp LA(L)         &kp H              &kp J      &kp K         &kp L          &kp SEMICOLON  &kp SQT
-&kp RIGHT_SHIFT   &kp Z              &kp X            &kp C         &kp V      &kp B                                   &kp N              &kp M      &kp COMMA     &kp DOT        &kp FSLH       &kp RIGHT_SHIFT
-&kp LEFT_CONTROL  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp LEFT_ALT  &kp SPACE          &kp LEFT_WIN  &kp RIGHT_WIN                        &kp SPACE  &kp LEFT_ALT  &kp LG(LC(D))  &kp BACKSLASH  &kp RIGHT_CONTROL
+&kp NUMBER_1     &kp NUMBER_2         &kp NUMBER_3     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp RC(RG(LEFT))  &kp RG(RC(RIGHT))  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp MINUS                     &kp EQUAL
+&kp TAB          &kp Q                &kp W            &kp E         &kp R         &kp T         &kp LA(S)         &kp LA(G)          &kp Y         &kp U         &kp I         &kp O         &kp P                         &kp LEFT_BRACKET
+&kp ESC          &hml LEFT_CONTROL A  &kp S            &kp D         &kp F         &kp G         &kp LA(H)         &kp LA(L)          &kp H         &kp J         &kp K         &kp L         &hmr RIGHT_CONTROL SEMICOLON  &kp SQT
+&kp RIGHT_SHIFT  &kp Z                &kp X            &kp C         &kp V         &kp B                                              &kp N         &kp M         &kp COMMA     &kp DOT       &kp FSLH                      &kp RIGHT_SHIFT
+&none            &kp C_VOLUME_DOWN    &kp C_VOLUME_UP  &kp LEFT_ALT  &kp SPACE                   &kp LEFT_WIN      &kp RIGHT_WIN                    &kp SPACE     &kp LEFT_ALT  &none         &kp BACKSLASH                 &none
             >;
         };
 
         windows_varm_vim_layer {
             bindings = <
-&kp GRAVE         &kp N1             &kp N2           &kp N3        &kp END        &kp N5        &kp N6        &kp RG(RC(LEFT))   &kp RG(RC(RIGHT))  &kp N7             &kp N8        &kp N9         &kp HOME       &kp MINUS
-&kp TAB           &kp Q              &kp LC(RIGHT)    &kp E         &kp LS(LC(Z))  &kp T         &kp LA(S)     &kp LA(G)          &kp LC(C)          &kp LC(Z)          &kp I         &kp O          &kp LC(V)      &kp LEFT_BRACKET
-&kp ESC           &kp A              &kp S            &kp D         &kp F          &kp G         &kp LA(H)     &kp LA(L)          &kp LEFT           &kp DOWN           &kp UP        &kp RIGHT      &kp SEMICOLON  &kp SQT
-&kp RIGHT_SHIFT   &kp Z              &kp X            &kp C         &kp V          &kp LC(LEFT)                                   &kp RG(RS(LEFT))   &kp RG(RS(RIGHT))  &kp COMMA     &kp DOT        &kp LC(F)      &kp RIGHT_SHIFT
-&kp LEFT_CONTROL  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp LEFT_ALT  &kp SPACE                    &kp LEFT_WIN  &kp RIGHT_COMMAND                     &kp SPACE          &kp LEFT_ALT  &kp LC(LG(D))  &kp BACKSLASH  &kp RIGHT_CONTROL
+&kp NUMBER_1     &kp NUMBER_2         &kp NUMBER_3     &kp END       &kp NUMBER_5   &kp NUMBER_6  &kp RG(RC(LEFT))  &kp RG(RC(RIGHT))  &kp NUMBER_7      &kp NUMBER_8       &kp NUMBER_9  &kp HOME   &kp MINUS                     &kp EQUAL
+&kp TAB          &kp Q                &kp LC(RIGHT)    &kp E         &kp LS(LC(Z))  &kp T         &kp LA(S)         &kp LA(G)          &kp LC(C)         &kp LC(Z)          &kp I         &kp O      &kp LC(V)                     &kp LEFT_BRACKET
+&kp ESC          &hml LEFT_CONTROL A  &kp S            &kp D         &kp F          &kp G         &kp LA(H)         &kp LA(L)          &kp LEFT          &kp DOWN           &kp UP        &kp RIGHT  &hmr RIGHT_CONTROL SEMICOLON  &kp SQT
+&kp RIGHT_SHIFT  &kp Z                &kp X            &kp C         &kp V          &kp LC(LEFT)                                       &kp RG(RS(LEFT))  &kp RG(RS(RIGHT))  &kp COMMA     &kp DOT    &kp LC(F)                     &kp RIGHT_SHIFT
+&none            &kp C_VOLUME_DOWN    &kp C_VOLUME_UP  &kp LEFT_ALT  &kp SPACE                    &kp LEFT_WIN      &kp RIGHT_COMMAND                    &kp SPACE          &kp LEFT_ALT  &none      &kp BACKSLASH                 &none
             >;
         };
 
