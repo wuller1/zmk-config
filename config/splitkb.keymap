@@ -94,7 +94,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        windows_varm_layer {
+        windows_layer {
             bindings = <
 &kp EQUAL        &kp NUMBER_1         &kp NUMBER_2     &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &none         &none          &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0                  &kp MINUS
 &kp TAB          &kp Q                &kp W            &kp E         &kp R         &kp T         &none         &none          &kp Y         &kp U         &kp I         &kp O         &kp P                         &kp LEFT_BRACKET
@@ -104,7 +104,7 @@
             >;
         };
 
-        windows_varm_vim_layer {
+        windows_vim_layer {
             bindings = <
 &none            &none             &none          &none  &kp END        &none         &none  &none  &none             &none              &kp RG(RC(LEFT))  &kp RG(RC(RIGHT))  &kp HOME           &none
 &kp TAB          &none             &kp LC(RIGHT)  &none  &kp LS(LC(Z))  &none         &none  &none  &kp LC(C)         &kp LC(Z)          &kp LA(S)         &kp LA(G)          &kp LC(V)          &none
