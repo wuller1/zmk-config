@@ -42,11 +42,6 @@
             key-positions = <34 35>;
         };
 
-        win_vim_layer {
-            bindings = <&to 1>;
-            key-positions = <37 38>;
-        };
-
         win_varm_layer {
             bindings = <&to 0>;
             key-positions = <38 39>;
