@@ -56,6 +56,11 @@
             bindings = <&to 3>;
             key-positions = <50 51>;
         };
+
+        bluetooth_layer {
+            bindings = <&to 5>;
+            key-positions = <59 60>;
+        };
     };
 
     behaviors {
@@ -136,6 +141,16 @@
 &kp ESC           &kp A              &kp S            &kp D             &kp F          &kp G         &kp LG(H)     &kp LG(L)          &kp LEFT           &kp DOWN           &kp UP            &kp RIGHT  &kp SEMICOLON  &kp SQT
 &kp RIGHT_SHIFT   &kp Z              &kp X            &kp C             &kp V          &kp LC(LEFT)                                   &kp RS(RG(LEFT))   &kp LS(RG(RIGHT))  &kp COMMA         &kp DOT    &kp LC(F)      &kp RIGHT_SHIFT
 &kp LEFT_CONTROL  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp LEFT_COMMAND  &kp SPACE                    &kp LEFT_ALT  &kp RIGHT_COMMAND                     &kp SPACE          &kp LEFT_COMMAND  &kp GRAVE  &kp BACKSLASH  &kp RIGHT_CONTROL
+            >;
+        };
+
+        bluetooth_layer {
+            bindings = <
+&trans      &trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans        &trans        &trans        &trans        &trans                        &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans        &trans        &trans        &trans                      &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
