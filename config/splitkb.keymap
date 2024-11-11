@@ -138,11 +138,11 @@
 
         programming {
             bindings = <
-&trans      &trans        &trans           &trans                &trans                 &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp HASH    &kp AMPS      &kp AT_SIGN      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp CARET   &kp PIPE      &kp EXCLAMATION  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EQUAL  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp DOLLAR  &kp ASTERISK  &kp PERCENT      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PLUS                   &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &trans        &trans           &trans                &kp UNDER                         &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&none       &none         &none            &none                 &none                  &none      &none  &none  &none  &none  &none  &none  &none  &none
+&kp HASH    &kp AMPS      &kp AT_SIGN      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS  &none  &none  &none  &none  &none  &none  &none  &none
+&kp CARET   &kp PIPE      &kp EXCLAMATION  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EQUAL  &none  &none  &none  &none  &none  &none  &none  &none
+&kp DOLLAR  &kp ASTERISK  &kp PERCENT      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PLUS                 &none  &none  &none  &none  &none  &none
+&none       &none         &none            &none                 &kp UNDER                         &none  &none         &none  &none  &none  &none  &none
             >;
         };
 
