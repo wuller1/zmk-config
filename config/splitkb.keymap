@@ -128,11 +128,11 @@
 
         numpad {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp N7  &kp N8  &kp N9  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp N4  &kp N5  &kp N6  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &kp N1  &kp N2  &kp N3  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans          &kp N0  &trans  &trans  &trans  &trans
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none   &none   &none   &none           &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &kp N7  &kp N8  &kp N9  &kp MINUS       &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &kp N4  &kp N5  &kp N6  &kp UNDERSCORE  &none
+&none  &none  &none  &none  &none  &none                &none  &kp N1  &kp N2  &kp N3  &kp BACKSLASH   &none
+&none  &none  &none  &none  &none         &none  &none         &kp N0  &none   &none   &none           &none
             >;
         };
 
@@ -142,7 +142,7 @@
 &kp HASH    &kp AMPS      &kp AT_SIGN      &kp MINUS  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none  &none  &none  &none  &none  &none  &none  &none
 &kp CARET   &kp PIPE      &kp EXCLAMATION  &kp EQUAL  &kp LEFT_BRACE        &kp RIGHT_BRACE        &none  &none  &none  &none  &none  &none  &none  &none
 &kp DOLLAR  &kp ASTERISK  &kp PERCENT      &kp PLUS   &kp LEFT_BRACKET      &kp RIGHT_BRACKET                    &none  &none  &none  &none  &none  &none
-&none       &none         &none            &none      &kp UNDER                                    &none  &none         &none  &none  &none  &none  &none
+&none       &none         &none            &none      &none                                        &none  &none         &none  &none  &none  &none  &none
             >;
         };
 
