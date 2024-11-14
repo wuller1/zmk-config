@@ -70,9 +70,9 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <150>;
+            tapping-term-ms = <200>;
             quick-tap-ms = <100>;
-            flavor = "tap-preferred";
+            flavor = "balanced";
             hold-trigger-on-release;
             hold-trigger-key-positions = <0 1 2 3 4 5 6 14 15 16 17 18 19 20 28 29 30 31 32 33 34 42 43 44 45 46 47 54 55 56 57 58 59>;
             require-prior-idle-ms = <200>;
@@ -84,9 +84,9 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <150>;
+            tapping-term-ms = <200>;
             quick-tap-ms = <100>;
-            flavor = "tap-preferred";
+            flavor = "balanced";
             hold-trigger-on-release;
             hold-trigger-key-positions = <7 8 9 10 11 12 13 21 22 23 24 25 26 27 35 36 37 38 39 40 41 48 49 50 51 52 53 60 61 62 63 64 65>;
             require-prior-idle-ms = <200>;
@@ -98,11 +98,11 @@
 
         windows_layer {
             bindings = <
-&kp EQUAL              &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &none         &none          &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0   &kp MINUS
-&kp TAB                &kp Q         &kp W         &kp E         &kp R         &kp T         &none         &none          &kp Y         &kp U         &kp I         &kp O         &kp P          &kp LEFT_BRACKET
-&hml LEFT_CONTROL ESC  &kp A         &kp S         &kp D         &kp F         &lt 1 G       &none         &none          &lt 1 H       &kp J         &kp K         &kp L         &kp SEMICOLON  &hmr RIGHT_CONTROL SINGLE_QUOTE
-&kp RIGHT_SHIFT        &kp Z         &kp X         &kp C         &kp V         &lt 2 B                                    &lt 2 N       &kp M         &kp COMMA     &kp DOT       &kp FSLH       &kp RIGHT_SHIFT
-&none                  &none         &none         &kp LEFT_ALT  &lt 3 SPACE                 &kp LEFT_GUI  &kp RIGHT_GUI                &lt 4 SPACE   &kp LEFT_ALT  &none         &none          &none
+&kp EQUAL        &kp NUMBER_1         &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &none  &none  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0                  &kp MINUS
+&kp TAB          &kp Q                &kp W         &kp E         &kp R         &kp T         &none  &none  &kp Y         &kp U         &kp I         &kp O         &kp P                         &kp LEFT_BRACKET
+&kp ESCAPE       &hml LEFT_CONTROL A  &kp S         &kp D         &kp F         &kp G         &none  &none  &kp H         &kp J         &kp K         &kp L         &hmr RIGHT_CONTROL SEMICOLON  &kp SINGLE_QUOTE
+&kp RIGHT_SHIFT  &kp Z                &kp X         &kp C         &kp V         &kp B                       &kp N         &kp M         &kp COMMA     &kp DOT       &kp FSLH                      &kp RIGHT_SHIFT
+&none            &none                &none         &to 2         &lt 3 SPACE                 &to 1  &none                &lt 4 SPACE   &kp LEFT_ALT  &none         &none                         &none
             >;
         };
 
