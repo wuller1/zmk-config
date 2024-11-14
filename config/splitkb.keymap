@@ -129,8 +129,8 @@
         numpad {
             bindings = <
 &none  &none  &none  &none  &none  &none  &none  &none  &none  &none   &none   &none   &none           &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &kp N7  &kp N8  &kp N9  &kp MINUS       &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &kp N4  &kp N5  &kp N6  &kp UNDERSCORE  &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &kp N7  &kp N8  &kp N9  &kp MINUS       &kp GRAVE
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &kp N4  &kp N5  &kp N6  &kp UNDERSCORE  &kp TILDE
 &none  &none  &none  &none  &none  &none                &none  &kp N1  &kp N2  &kp N3  &kp BACKSLASH   &none
 &none  &none  &none  &none  &none         &none  &none         &kp N0  &none   &none   &none           &none
             >;
