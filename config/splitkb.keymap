@@ -102,7 +102,7 @@
 &kp TAB          &kp Q                &kp W         &kp E         &kp R         &kp T         &none           &none  &kp Y         &kp U         &kp I         &kp O         &kp P                         &kp LEFT_BRACKET
 &kp ESCAPE       &hml LEFT_CONTROL A  &kp S         &kp D         &kp F         &kp G         &none           &none  &kp H         &kp J         &kp K         &kp L         &hmr RIGHT_CONTROL SEMICOLON  &hmr LEFT_WIN SQT
 &kp RIGHT_SHIFT  &kp Z                &kp X         &kp C         &kp V         &kp B                                &kp N         &kp M         &kp COMMA     &kp DOT       &kp FSLH                      &kp RIGHT_SHIFT
-&none            &none                &none         &to 2         &lt 3 SPACE                 &lt 1 LEFT_WIN  &none                &lt 4 SPACE   &kp LEFT_ALT  &none         &none                         &none
+&none            &none                &none         &mo 2         &lt 3 SPACE                 &lt 1 LEFT_WIN  &none                &lt 4 SPACE   &kp LEFT_ALT  &none         &none                         &none
             >;
         };
 
