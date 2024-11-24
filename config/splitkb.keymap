@@ -73,15 +73,5 @@
 &kp CAPSLOCK  &to 1              &hml HOME LEFT       &hml END RIGHT   &kp SPACE                    &kp BACKSPACE  &kp ENTER             &kp SPACE             &kp UP            &kp DOWN              &kp C_VOL_DN           &kp C_VOL_UP
             >;
         };
-
-        f-keys {
-            bindings = <
-&kp GRAVE     &kp F1                    &kp F2                      &kp F3                  &kp F4                      &kp F5  &kp F6         &bt BT_CLR    &kp F7  &kp F8                 &kp F9             &kp F10                &kp F11                 &kp F12
-&kp TAB       &kp Q                     &kp W                       &kp E                   &kp R                       &kp T   &bt BT_SEL 0   &bt BT_SEL 1  &kp Y   &kp U                  &kp I              &kp O                  &kp P                   &kp LBKT
-&to 0         &hml LEFT_SHIFT NUMBER_1  &hml LEFT_CONTROL NUMBER_2  &hml LEFT_ALT NUMBER_3  &hml LEFT_COMMAND NUMBER_4  &kp N5  &kp NUMBER_6   &bt BT_SEL 3  &kp N7  &hmr RIGHT_COMMAND N8  &hmr RIGHT_ALT N9  &hmr RIGHT_CONTROL N0  &hmr RIGHT_SHIFT MINUS  &kp EQUAL
-&none         &kp Z                     &kp X                       &kp C                   &kp V                       &kp B                                &kp N   &kp M                  &kp COMMA          &kp DOT                &kp FSLH                &kp RIGHT_BRACKET
-&kp CAPSLOCK  &to 0                     &hml LEFT HOME              &hmr END RIGHT          &kp SPACE                           &kp BACKSPACE  &kp ENTER             &kp SPACE              &kp LEFT           &kp RIGHT              &kp C_VOL_DN            &kp C_VOL_UP
-            >;
-        };
     };
 };
