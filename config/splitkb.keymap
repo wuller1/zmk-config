@@ -13,22 +13,17 @@
 
         Backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <24 23>;
+            key-positions = <19 20>;
         };
 
         Enter {
             bindings = <&kp ENTER>;
-            key-positions = <25 24>;
-        };
-
-        Escape {
-            bindings = <&kp ESC>;
-            key-positions = <16 17>;
+            key-positions = <20 21>;
         };
 
         Delete {
             bindings = <&kp DELETE>;
-            key-positions = <18 17>;
+            key-positions = <14 15>;
         };
     };
 
